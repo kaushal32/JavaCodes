@@ -12,7 +12,3 @@ public class AddAmount {
         System.out.println(obj.amount);
     }
 }
-
-
-
-
