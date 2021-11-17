@@ -12,7 +12,7 @@ public class Fruit {
     public static void main(String[] args) {
         Apple obj1 = new Apple();
         Orange obj2 = new Orange();
-        obj1.eat("Apple","Sweet");
+        obj1.eat("Apple","Sweety");
         obj2.eat("Orange","Juicy");
     }
 }
