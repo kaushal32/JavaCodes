@@ -1,7 +1,4 @@
-public class Assignment {
-
-
-
+public class Threads {
 
     public static void main(String[] args) {
 
@@ -52,5 +49,7 @@ public class Assignment {
 
 
 }
+
+
 
 
