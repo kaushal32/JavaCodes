@@ -1,0 +1,31 @@
+import java.util.*;
+class Three_compare {
+    int age;
+    int height;
+    int weight;
+
+}
+class Three_comparemain {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        Three_compare arr[] = new three_compare[3];
+        int suma=0;
+        int sumh=0;
+        int sumw=0;
+        for (int i = 0; i < 3; i++) {
+            arr[i] = new Three_compare();
+        }
+        for (int i = 0; i < 3; i++) {
+            arr[i].age = s.nextInt();
+            arr[i].height = s.nextInt();
+            arr[i].weight = s.nextInt();
+
+        }
+        suma=arr[0].age+arr[1].age+arr[2].age;
+        sumh=arr[0].height+arr[1].height+arr[2].height;
+        sumw=arr[0].weight+arr[1].weight+arr[2].weight;
+        System.out.println("Average of age="+ suma/3);
+        System.out.println("Average of height="+ sumh/3);
+        System.out.println("Average of weight="+ sumw/3);
+    }
+}
