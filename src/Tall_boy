@@ -1,0 +1,35 @@
+import java.util.*;
+class Tall_boy {
+    String name;
+    int height;
+
+
+}
+class Tall_boymain {
+    public static void main(String[] args) {
+        int maxh=0;
+        String nm="";
+
+        Scanner s = new Scanner(System.in);
+        Tall_boy arr[] = new Tall_boy[3];
+
+        for (int i = 0; i < 3; i++) {
+            arr[i] = new Tall_boy();
+        }
+        for (int i = 0; i < 3; i++) {
+            arr[i].name = s.next();
+            arr[i].height = s.nextInt();
+
+        }
+        for (int i = 0; i <3; i++) {
+
+            if((arr[i].height)>maxh)
+            {
+                maxh=arr[i].height;
+                 nm=arr[i].name;
+        }}
+
+        System.out.println("Max height="+ maxh);
+        System.out.println("name="+nm);
+    }
+}
